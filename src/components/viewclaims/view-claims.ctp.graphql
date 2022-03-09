@@ -1,0 +1,12 @@
+query FetchClaims($container:String!,$limit:Int,$offset:Int) {
+  customObjects(container: $container,limit:$limit,offset:$offset){
+    total
+    count
+    offset
+  results{
+    container
+    value
+    key
+  }
+}
+}

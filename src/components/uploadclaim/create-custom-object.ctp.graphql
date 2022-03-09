@@ -1,0 +1,7 @@
+mutation CreateClaimObject($draft:CustomObjectDraft!){
+  createOrUpdateCustomObject(draft:$draft){
+    container
+    key
+    value
+  }
+}
