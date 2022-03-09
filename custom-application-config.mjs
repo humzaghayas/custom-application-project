@@ -13,7 +13,7 @@ const config = {
     },
 
     production: {
-      applicationId: 'cl0hsn92k81163010as55s6kys',
+      applicationId: 'cl0jao573702301yttbunrwv7',
       url: 'https://7f3356c8.custom-application-project.pages.dev/',
     },
   },
